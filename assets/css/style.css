@@ -6,7 +6,7 @@
 }
 
 header .main {
-  background-color: #2c2cef;
+  background-color: #0275d8;
 }
 
 header .main .nav-bar {
@@ -70,5 +70,285 @@ header .main nav a {
   text-decoration: none;
   color: white;
   font-size: 20px;
+}
+
+main .icons {
+  list-style: none;
+  background: #0275d8;
+  position: fixed;
+  color: white;
+  top: 200px;
+  right: 10px;
+  border-radius: 20px;
+  width: 45px;
+  height: 140px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+main #news-one .suretli p {
+  font-size: 20px;
+}
+
+main #news-one .covid-news {
+  height: 96px;
+  text-align: center;
+}
+
+main #news-one .covid-news .covid {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main #news-one .sputnik-v a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main #news-one .boyrek a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main #news-second .image {
+  position: relative;
+}
+
+main #news-second .image img {
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+  height: 400px;
+}
+
+main #news-second .image button {
+  position: absolute;
+  right: 0px;
+  bottom: -350px;
+  border-radius: 20px;
+  background-color: #0275d8;
+  color: white;
+  font-size: 20px;
+  height: 35px;
+  width: 120px;
+}
+
+main #news-second .image p {
+  position: absolute;
+  color: white;
+  left: 0px;
+  bottom: -90px;
+  font-size: 25px;
+}
+
+main #news-second .image-third {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+main #news-second .image-third img {
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+  height: 170px;
+}
+
+main #news-second .image-third button {
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+  border-radius: 20px;
+  background-color: #0275d8;
+  color: white;
+  font-size: 20px;
+  height: 35px;
+  width: 70px;
+}
+
+main #news-second .image-third p {
+  position: absolute;
+  color: white;
+  left: 0px;
+  top: 0px;
+  font-size: 15px;
+}
+
+main #news-second .image-second {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+main #news-second .image-second img {
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+  height: 170px;
+}
+
+main #news-second .image-second button {
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+  border-radius: 20px;
+  background-color: #0275d8;
+  color: white;
+  font-size: 20px;
+  height: 35px;
+  width: 70px;
+}
+
+main #news-second .image-second p {
+  position: absolute;
+  color: white;
+  left: 0px;
+  top: 0px;
+  font-size: 15px;
+}
+
+main #news-second .scroll {
+  border: 1px solid #0275d8;
+  border-radius: 10px;
+}
+
+main #news-second .scroll ul {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 350px;
+}
+
+main #news-second .scroll ul h1 {
+  color: #0275d8;
+  font-size: 25px;
+}
+
+main #news-third h1 {
+  color: #0275d8;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+main #news-third a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+main #news-third .tund {
+  text-decoration: none;
+  font-size: 30px;
+  color: #0275d8;
+}
+
+main #news-third .card {
+  width: 18rem;
+  height: 350px;
+}
+
+main #news-third .card img {
+  height: 217px;
+}
+
+main #news-four img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main #news-four .bkwh {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  color: #0275d8;
+  border: 1px solid #0275d8;
+}
+
+main #news-four .bkwh:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+main #news-four .tv {
+  width: 120px;
+  height: 30px;
+  background-color: #0275d8;
+  border-radius: 20px;
+  border: 1px solid #0275d8;
+  color: white;
+}
+
+main #news-four .bosh {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #0275d8;
+  height: 370px;
+}
+
+main #links .link {
+  background-color: #0275d8;
+  width: 100%;
+  position: relative;
+  height: 60px;
+  border-radius: 20px;
+}
+
+main #links .link a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  text-align: center;
+  left: 20px;
+}
+
+footer #footer {
+  background-color: #0275d8;
+}
+
+footer #footer p {
+  color: white;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+footer #footer li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+footer #footer li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+footer .foot {
+  width: 100%;
+  height: 200px;
+}
+
+footer .foot h2 {
+  color: white;
+}
+
+footer .foot input {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #0275d8;
+  border: 1px solid grey;
+}
+
+footer .foot button {
+  color: #0275d8;
+  height: 30px;
+  width: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
